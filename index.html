@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aurelia Coffee Marketing Experience</title>
+  <link rel="icon" type="image/jpeg" href="./favicon.jpg?v=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="bg-gradient" aria-hidden="true"></div>
+  <div class="bg-grid" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <nav class="navbar">
+      <a class="brand" href="#experience">Aurelia Coffee</a>
+      <ul class="nav-items">
+        <li><a href="#experience">Home</a></li>
+        <li><a href="#menuPanel">Coffee Line</a></li>
+        <li><a href="#experience">Brand Story</a></li>
+        <li><a href="#detailsPanel">Services</a></li>
+        <li><a href="#offerStack">Offers</a></li>
+        <li><a href="#siteFooter">Contact</a></li>
+      </ul>
+      <a class="nav-cta" href="#detailsPanel">Book Strategy Call</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="experience" class="experience">
+      <div class="stage">
+        <canvas id="frameCanvas" class="stage-layer frame-layer" aria-hidden="true"></canvas>
+        <canvas id="threeCanvas" class="stage-layer three-layer" aria-hidden="true"></canvas>
+        <div class="stage-vignette" aria-hidden="true"></div>
+
+        <div class="hud">
+          <p class="kicker">Coffee Brand Marketing Experience</p>
+          <h1 id="sceneDescription">Sell More Coffee With Story-Driven Campaigns</h1>
+          <p id="sceneSubtext" class="scene-subtext">
+            We help coffee brands convert aroma, origin, and ritual into demand across digital,
+            retail, and hospitality channels.
+          </p>
+          <div class="hero-proof">
+            <span>42M campaign impressions delivered</span>
+            <span>3.4x average ROAS</span>
+            <span>120+ coffee brands scaled</span>
+          </div>
+          <div class="hero-actions">
+            <button class="primary-btn" type="button">Launch Coffee Campaign</button>
+            <a class="secondary-btn" href="#offerStack">View Growth Packages</a>
+          </div>
+        </div>
+
+        <div class="scroll-hint">Scroll to continue</div>
+      </div>
+
+      <div id="scrollTrack" class="scroll-track" aria-hidden="true">
+        <section class="scroll-step" data-scene="hero"></section>
+        <section class="scroll-step" data-scene="coffeeBeans"></section>
+        <section class="scroll-step" data-scene="espressoExtraction"></section>
+        <section class="scroll-step" data-scene="carousel"></section>
+      </div>
+    </section>
+
+    <section id="menuPanel" class="menu-panel">
+      <div class="panel-head">
+        <p class="panel-kicker">Coffee Portfolio</p>
+        <h2>Signature Drinks Built To Win Attention And Drive Orders</h2>
+      </div>
+
+      <div class="card-grid">
+        <article class="menu-card">
+          <div class="menu-card-inner">
+            <img src="./espresso.jpg" alt="Espresso">
+            <div class="menu-card-copy">
+              <h3>Espresso</h3>
+              <p>Hero SKU for bold awareness campaigns.</p>
+            </div>
+            <span class="menu-card-beam" aria-hidden="true"></span>
+          </div>
+        </article>
+        <article class="menu-card">
+          <div class="menu-card-inner">
+            <img src="./_ (9).jpeg" alt="Cappuccino">
+            <div class="menu-card-copy">
+              <h3>Cappuccino</h3>
+              <p>Foam-forward visual star for social content.</p>
+            </div>
+            <span class="menu-card-beam" aria-hidden="true"></span>
+          </div>
+        </article>
+        <article class="menu-card">
+          <div class="menu-card-inner">
+            <img src="./Background Gallery Wall Ideas with Framedhe Legacy of Art.jpeg" alt="Latte">
+            <div class="menu-card-copy">
+              <h3>Latte</h3>
+              <p>High-repeat favorite that drives loyalty growth.</p>
+            </div>
+            <span class="menu-card-beam" aria-hidden="true"></span>
+          </div>
+        </article>
+        <article class="menu-card">
+          <div class="menu-card-inner">
+            <img src="./coffeeHero.jpg" alt="Americano">
+            <div class="menu-card-copy">
+              <h3>Americano</h3>
+              <p>Everyday classic built for retention marketing.</p>
+            </div>
+            <span class="menu-card-beam" aria-hidden="true"></span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="proof-band" aria-label="Marketing social proof">
+      <article>
+        <span class="proof-value">+186%</span>
+        <span class="proof-label">Average launch-week revenue lift</span>
+      </article>
+      <article>
+        <span class="proof-value">2.9x</span>
+        <span class="proof-label">Faster audience growth across paid + organic</span>
+      </article>
+      <article>
+        <span class="proof-value">31%</span>
+        <span class="proof-label">Higher repeat purchase rate in 90 days</span>
+      </article>
+    </section>
+
+    <section id="detailsPanel" class="details-panel">
+      <div class="details-head">
+        <p class="panel-kicker">Coffee Marketing System</p>
+        <h2>Everything Your Coffee Brand Needs To Grow Demand</h2>
+        <p>
+          From storytelling to shelf-to-screen campaigns, Aurelia turns bean quality into memorable
+          brand moments that attract new buyers and increase repeat orders.
+        </p>
+      </div>
+
+      <div class="details-grid">
+        <article class="detail-card detail-card--wide">
+          <h3>Campaign Blueprint</h3>
+          <p>
+            We build a complete coffee marketing framework from audience strategy to launch calendars,
+            so each campaign moves customers from discovery to conversion.
+          </p>
+          <ul class="detail-list">
+            <li>Audience personas for home brewers, cafe-goers, and B2B buyers</li>
+            <li>Offer positioning for blends, single-origin drops, and seasonal drinks</li>
+            <li>Cross-channel launch plans for paid media, email, and in-store activations</li>
+          </ul>
+        </article>
+
+        <article class="detail-card">
+          <h3>Origin Storytelling</h3>
+          <p>
+            We transform sourcing data into compelling stories that justify premium pricing and
+            strengthen trust with conscious coffee buyers.
+          </p>
+          <ul class="detail-list">
+            <li>Farm-to-cup narrative assets for product pages and packaging</li>
+            <li>Traceability highlights that boost credibility and differentiation</li>
+            <li>Impact-led messaging frameworks for sustainability campaigns</li>
+          </ul>
+        </article>
+
+        <article class="detail-card detail-card--media">
+          <img src="./grinder.jpg" alt="Coffee grinder and beans">
+          <div>
+            <h3>Content Production</h3>
+            <p>
+              We produce conversion-focused coffee visuals and short-form videos that make your
+              espresso pours, latte textures, and roast rituals impossible to ignore.
+            </p>
+          </div>
+        </article>
+      </div>
+
+      <div class="operations-bar">
+        <article class="metric-chip">
+          <span class="metric-value">42M</span>
+          <span class="metric-label">Coffee Campaign Impressions</span>
+        </article>
+        <article class="metric-chip">
+          <span class="metric-value">9.8%</span>
+          <span class="metric-label">Average Conversion Rate</span>
+        </article>
+        <article class="metric-chip">
+          <span class="metric-value">3.4x</span>
+          <span class="metric-label">Return On Ad Spend</span>
+        </article>
+        <article class="metric-chip">
+          <span class="metric-value">27%</span>
+          <span class="metric-label">Repeat Purchase Uplift</span>
+        </article>
+      </div>
+    </section>
+
+    <section id="offerStack" class="offer-stack">
+      <div class="panel-head">
+        <p class="panel-kicker">Growth Offers</p>
+        <h2>Choose The Campaign Engine That Fits Your Coffee Brand Stage</h2>
+      </div>
+
+      <div class="offer-grid">
+        <article class="offer-card">
+          <p class="offer-tier">Starter Growth</p>
+          <p class="offer-price">$2,900<span>/month</span></p>
+          <ul class="detail-list">
+            <li>Brand positioning and core message framework</li>
+            <li>Monthly content calendar with coffee launch hooks</li>
+            <li>Conversion-focused landing page optimization</li>
+          </ul>
+          <a class="offer-cta" href="#siteFooter">Get Starter Plan</a>
+        </article>
+
+        <article class="offer-card offer-card--featured">
+          <p class="offer-badge">Most Popular</p>
+          <p class="offer-tier">Scale Engine</p>
+          <p class="offer-price">$6,500<span>/month</span></p>
+          <ul class="detail-list">
+            <li>Multi-channel paid campaigns and creative testing</li>
+            <li>Lifecycle email funnels for repeat coffee orders</li>
+            <li>Weekly performance sprint and ROI dashboard review</li>
+          </ul>
+          <a class="offer-cta" href="#siteFooter">Scale My Brand</a>
+        </article>
+
+        <article class="offer-card">
+          <p class="offer-tier">Market Domination</p>
+          <p class="offer-price">$12,000<span>/month</span></p>
+          <ul class="detail-list">
+            <li>Full-funnel strategy across DTC, retail, and B2B</li>
+            <li>High-volume UGC and premium video production</li>
+            <li>Dedicated growth lead and weekly revenue war room</li>
+          </ul>
+          <a class="offer-cta" href="#siteFooter">Book Enterprise Call</a>
+        </article>
+      </div>
+
+      <p class="offer-urgency">Only 3 onboarding slots left for this month.</p>
+    </section>
+  </main>
+
+  <footer id="siteFooter" class="site-footer">
+    <div class="footer-grid">
+      <div>
+        <a class="footer-brand" href="#experience">Aurelia Coffee</a>
+        <p class="footer-copy">
+          Coffee-first marketing studio for roasters, cafes, and beverage brands.
+        </p>
+      </div>
+
+      <div>
+        <h4>Explore</h4>
+        <ul class="footer-links">
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#menuPanel">Coffee Portfolio</a></li>
+          <li><a href="#detailsPanel">Marketing System</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Campaign Hubs</h4>
+        <ul class="footer-links">
+          <li>Nairobi</li>
+          <li>Dubai</li>
+          <li>London</li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Contact</h4>
+        <ul class="footer-links">
+          <li><a href="mailto:growth@aureliacoffee.com">growth@aureliacoffee.com</a></li>
+          <li><a href="tel:+254700123456">+254 700 123 456</a></li>
+          <li>Mon - Sat, 8:00 - 20:00</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 Aurelia Coffee Marketing. All rights reserved.</p>
+      <a href="#experience">Back to top</a>
+    </div>
+  </footer>
+
+  <script async src="https://cdn.jsdelivr.net/npm/three@0.163.0/build/three.min.js"></script>
+  <script async src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script async src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script defer src="./script.js?v=20260316"></script>
+</body>
+</html>
