@@ -1,0 +1,31 @@
+{
+  "name": "coffe",
+  "description": "Step-by-step skill to upgrade existing websites into advanced, animated, responsive experiences while preserving core behavior.",
+  "invocation": "Use $coffe to upgrade my current website step by step without changing core logic.",
+  "workflow": [
+    "Audit the current site structure, stack, animations, accessibility, and performance.",
+    "Freeze functional behavior and preserve business logic unless explicitly approved.",
+    "Define target visual direction, typography, color strategy, and motion rhythm.",
+    "Apply upgrades in passes: tokens, layout, typography, motion, interactions, accessibility, performance.",
+    "Implement one pass at a time and validate after each pass.",
+    "Summarize changes, retained behavior, and rationale."
+  ],
+  "operating_rules": [
+    "Prefer progressive enhancement over full rewrites.",
+    "Keep motion purposeful and hierarchy-driven.",
+    "Animate primarily transform and opacity.",
+    "Use design tokens for consistency.",
+    "Preserve or improve accessibility and performance.",
+    "Avoid breaking dependencies without explicit approval."
+  ],
+  "references": [
+    "references/web-elevation-playbook.md",
+    "SKILL.md"
+  ],
+  "output_contract": [
+    "Provide a short upgrade plan before edits.",
+    "Provide file-by-file summary after edits.",
+    "Provide responsive, accessibility, and performance validation notes.",
+    "Provide next-step options."
+  ]
+}

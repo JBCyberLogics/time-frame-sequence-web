@@ -1,0 +1,4 @@
+interface:
+  display_name: "Advanced Web Director"
+  short_description: "Step-by-step advanced website upgrade workflow"
+  default_prompt: "Use $advanced-web-director to evolve my current website into a more advanced animated, responsive experience step by step."
